@@ -3,7 +3,7 @@ organization := "me.ooon"
 scalaVersion := "2.13.8"
 
 libraryDependencies ++= Seq(
-  "org.apache.zookeeper"        % "zookeeper"                % "3.7.1",
+  "org.apache.zookeeper"        % "zookeeper"                % "3.8.0",
   "me.ooon"                    %% "orison"                   % "1.0.2"  % Test,
   "com.lihaoyi"                %% "os-lib"                   % "0.8.1"  % Test,
   "org.scalatest"              %% "scalatest-core"           % "3.2.12" % Test,
