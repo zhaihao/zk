@@ -1,6 +1,6 @@
 name         := "zk"
 organization := "me.ooon"
-scalaVersion := "2.13.9"
+scalaVersion := "2.13.10"
 
 libraryDependencies ++= Seq(
   "org.apache.zookeeper"        % "zookeeper"                % "3.8.0",
