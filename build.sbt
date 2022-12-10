@@ -5,7 +5,7 @@ scalaVersion := "2.13.10"
 libraryDependencies ++= Seq(
   "org.apache.zookeeper"        % "zookeeper"                % "3.8.0",
   "me.ooon"                    %% "orison"                   % "1.0.2"  % Test,
-  "com.lihaoyi"                %% "os-lib"                   % "0.8.1"  % Test,
+  "com.lihaoyi"                %% "os-lib"                   % "0.9.0"  % Test,
   "org.scalatest"              %% "scalatest-core"           % "3.2.14" % Test,
   "org.scalatest"               % "scalatest-compatible"     % "3.2.14" % Test,
   "org.scalatest"              %% "scalatest-diagrams"       % "3.2.14" % Test,
