@@ -7,7 +7,7 @@
 
 <!-- https://www.playframework.com/documentation/latest/SettingsLogger -->
 <configuration>
-
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
     <conversionRule conversionWord="coloredLevel" converterClass="log.logback.ColoredLevel"/>
     <conversionRule conversionWord="coloredLogger" converterClass="log.logback.ColoredLogger"/>
 
