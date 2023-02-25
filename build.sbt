@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.scala-logging" %% "scala-logging"            % "3.9.5"  % Test,
   "ch.qos.logback"              % "logback-classic"          % "1.4.5" % Test,
   // server 依赖
-  "io.dropwizard.metrics" % "metrics-core" % "4.2.16"  % Test,
+  "io.dropwizard.metrics" % "metrics-core" % "4.2.17"  % Test,
   "org.xerial.snappy"     % "snappy-java"  % "1.1.9.1" % Test
 )
 
