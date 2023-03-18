@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
   "org.scalatest"              %% "scalatest-matchers-core"  % "3.2.15" % Test,
   "org.scalatest"              %% "scalatest-shouldmatchers" % "3.2.15" % Test,
   "org.scalatest"              %% "scalatest-freespec"       % "3.2.15" % Test,
-  "org.slf4j"                   % "log4j-over-slf4j"         % "2.0.6"  % Test,
+  "org.slf4j"                   % "log4j-over-slf4j"         % "2.0.7"  % Test,
   "com.typesafe.scala-logging" %% "scala-logging"            % "3.9.5"  % Test,
   "ch.qos.logback"              % "logback-classic"          % "1.4.5"  % Test,
   // server 依赖
