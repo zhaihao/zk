@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
   "ch.qos.logback"              % "logback-classic"          % "1.4.7"  % Test,
   // server 依赖
   "io.dropwizard.metrics" % "metrics-core" % "4.2.18"  % Test,
-  "org.xerial.snappy"     % "snappy-java"  % "1.1.9.1" % Test
+  "org.xerial.snappy"     % "snappy-java"  % "1.1.10.0" % Test
 )
 
 excludeDependencies ++= Seq(
