@@ -1,6 +1,6 @@
 name         := "zk"
 organization := "me.ooon"
-scalaVersion := "2.13.10"
+scalaVersion := "2.13.11"
 target       := studioTarget.value
 
 libraryDependencies ++= Seq(
