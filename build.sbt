@@ -4,7 +4,7 @@ scalaVersion := "2.13.12"
 target       := studioTarget.value
 
 libraryDependencies ++= Seq(
-  "org.apache.zookeeper"        % "zookeeper"                % "3.9.0",
+  "org.apache.zookeeper"        % "zookeeper"                % "3.9.1",
   "me.ooon"                    %% "orison"                   % "1.0.17"  % Test,
   "com.lihaoyi"                %% "os-lib"                   % "0.9.1"  % Test,
   "org.scalatest"              %% "scalatest-core"           % "3.2.17" % Test,
