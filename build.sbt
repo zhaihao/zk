@@ -6,7 +6,7 @@ target       := studioTarget.value
 libraryDependencies ++= Seq(
   "org.apache.zookeeper"        % "zookeeper"                % "3.9.2",
   "me.ooon"                    %% "orison"                   % "1.0.17"  % Test,
-  "com.lihaoyi"                %% "os-lib"                   % "0.10.1"  % Test,
+  "com.lihaoyi"                %% "os-lib"                   % "0.10.2"  % Test,
   "org.scalatest"              %% "scalatest-core"           % "3.2.18" % Test,
   "org.scalatest"               % "scalatest-compatible"     % "3.2.18" % Test,
   "org.scalatest"              %% "scalatest-diagrams"       % "3.2.18" % Test,
