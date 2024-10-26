@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "org.scalatest"              %% "scalatest-freespec"       % "3.2.19" % Test,
   "org.slf4j"                   % "log4j-over-slf4j"         % "2.0.16"  % Test,
   "com.typesafe.scala-logging" %% "scala-logging"            % "3.9.5"  % Test,
-  "ch.qos.logback"              % "logback-classic"          % "1.5.11"  % Test,
+  "ch.qos.logback"              % "logback-classic"          % "1.5.12"  % Test,
   // server 依赖
   "io.dropwizard.metrics" % "metrics-core" % "4.2.28"  % Test,
   "org.xerial.snappy"     % "snappy-java"  % "1.1.10.7" % Test
